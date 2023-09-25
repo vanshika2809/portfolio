@@ -2,6 +2,7 @@ import Header from "@/components/sections/header";
 import Organizations from "@/components/sections/Organizations";
 import Footer from "@/components/sections/Footer";
 import { useEffect, useState } from "react";
+import WorkExperience from "@/components/sections/WorkExperience";
 
 export default function Home() {
   const [loading, setLoading] = useState<boolean>(true);
@@ -34,6 +35,7 @@ export default function Home() {
       <main>
         <Header />
         <Organizations />
+        <WorkExperience />
         <Footer />
       </main>
     </>
