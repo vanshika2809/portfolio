@@ -3,12 +3,12 @@ import Avatar from "../elements/Avatar";
 
 const Header = () => {
   return (
-    <section className="w-full min-h-[500px] relative overflow-hidden">
+    <section className="w-full min-h-[500px] relative overflow-hidden pb-5 flex justify-center items-center">
       <div
         style={{ backgroundImage: "url(/headerBg.jpg)" }}
-        className="absolute blur-sm transform bg-no-repeat bg-center bg-cover scale-[1.01] inset-0 z-[1]"
+        className="absolute blur-sm transform bg-no-repeat bg-center bg-cover scale-[1.01] inset-0 -z-[1]"
       ></div>
-      <header className="z-20 absolute inset-0 flex items-center justify-center text-white">
+      <header className="z-20 flex items-center justify-center text-white">
         <div className="flex lg:w-2/3 w-4/5 flex-col lg:flex-row space-y-6 lg:space-y-0">
           <div className="flex-1 order-2 lg:order-1 flex flex-col space-y-6 lg:pr-[18px]">
             <h1 className="font-bold text-5xl text-center lg:text-left">
