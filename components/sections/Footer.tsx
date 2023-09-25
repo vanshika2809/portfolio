@@ -12,8 +12,8 @@ const Footer = () => {
               </h2>
               <div className="mt-4 text-lg leading-8 text-white">
                 <div className="border-b border-transparent transition hover:border-white motion-reduce:transition-none w-fit">
-                  <a className="" href="mailto:someone@yoursite.com">
-                    Email me at: divyajyoti.u@gmail.com
+                  <a className="" href="mailto:vanshika.meh@gmail.com">
+                    Email me at: vanshika.meh@gmail.com
                   </a>
                 </div>
               </div>
